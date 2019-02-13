@@ -1,0 +1,7 @@
+class rectangle:
+	def __init__(self,l,b):
+		self.l=l
+		self.b=b
+		self.a=l*b
+p1=rectangle(10,15)
+print("Area of Rectangle = ",p1.a)
