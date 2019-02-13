@@ -1,0 +1,7 @@
+import math
+class circle:
+	def __init__(self,r):
+		self.r=r
+		self.a=math.pi*r**2
+c1=circle(2)
+print("Area of Circle = ",c1.a)
