@@ -1,0 +1,11 @@
+import math
+class circle:
+	def getArea(self,radius):
+		self.radius=radius
+		return math.pi*radius**2
+	def getCircumference(self,radius):
+		self.radius=radius
+		return 2*math.pi*radius
+c1=circle()
+print("Area Of Circle = ",c1.getArea(2))
+print("Circumference Of Circle = ",c1.getCircumference(4))
