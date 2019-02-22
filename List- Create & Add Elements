@@ -1,0 +1,11 @@
+hehelist=[12,23,34,54,76,23,13]
+print("Without List = ",hehelist)
+hye=list()
+hye.append(12)
+hye.append(345)
+hye.append(143)
+hye.append(3224)
+hye.append(157)
+hye.append(212)
+hye.append(412)
+print("With list = ",hye)
