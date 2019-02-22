@@ -1,0 +1,36 @@
+class Employee:
+	def __init__(self,Name,Age,Department,Salary):
+		self.Name=Name
+		self.Age=Age
+		self.Department=Department
+		self.Salary=Salary
+	def Display(self):
+		print("Employee Detail")
+		print("Name = ",self.Name)
+		print("Age  = ",self.Age)
+		print("Deparment = ",self.Department)
+		print("Salary = ",self.Salary)
+	def Increment(self):
+		if 25000>self.Salary>=20000:
+			print("Incremented Salary by 20% = ",self.Salary+self.Salary*(20/100))
+		if 30000>self.Salary>=25000:
+			print("Incremented Salary by 18% = ",self.Salary+self.Salary*(18/100))
+		if 35000>self.Salary>=30000:
+			print("Incremented Salary by 15% = ",self.Salary+self.Salary*(15/100))
+		if 40000>self.Salary>=35000:
+			print("Incremented Salary by 13% = ",self.Salary+self.Salary*(13/100))
+		if 45000>self.Salary>=40000:
+			print("Incremented Salary by 11% = ",self.Salary+self.Salary*(11/100))
+		if 50000>self.Salary>=45000:
+			print("Incremented Salary by 9% = ",self.Salary+self.Salary*(9/100))
+		if 55000>self.Salary>=50000:
+			print("Incremented Salary by 5% = ",self.Salary+self.Salary*(5/100))
+e1=Employee("Parvinder Singh",19,"IT",53000)
+e1.Display()
+e1.Increment()
+e2=Employee("Divyansh Sharma",19,"HEHE",22000)
+e2.Display()
+e2.Increment()
+e3=Employee("Anmol Srivastava",19,"UIUI",35000)
+e3.Display()
+e3.Increment()
