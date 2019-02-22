@@ -1,0 +1,11 @@
+class Temperature:
+	def __init__(self,c=None,f=None):
+		self.c=c
+		self.f=f
+	def convertFahrenheit(self):
+		return (9/5)*self.c+32
+	def convertCelsius(self):
+		return (self.f-32)*(5/9)
+t1=Temperature(c=5,f=5)
+print("Fahrenheit = ",t1.convertFahrenheit())
+print("Celsius = ",t1.convertCelsius())
