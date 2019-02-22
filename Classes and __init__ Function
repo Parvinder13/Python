@@ -1,0 +1,42 @@
+class Student:
+	def __init__(self,Name,UID,Marks):
+		self.Name=Name
+		self.UID=UID
+		self.Marks=Marks
+	def Display(self):
+		print("Student Detail")
+		print("Name = ",self.Name)
+		print("UID  = ",self.UID)
+		print("Marks =",self.Marks)
+	def Grade(self):
+		if self.Marks>=95:
+			print("Grade A+")
+		if 95>self.Marks>=90:
+			print("Grade A")
+		if 90>self.Marks>=85:
+			print("Grade B+")
+		if 85>self.Marks>=80:
+			print("Grade B")
+		if 80>self.Marks>=75:
+			print("Grade C+")
+		if 75>self.Marks>=70:
+			print("Grade C")
+		if 70>self.Marks>=65:
+			print("Grade D+")
+		if 65>self.Marks>=60:
+			print("Grade D")
+		if 60>self.Marks>=55:
+			print("Grade E+")
+		if 55>self.Marks>=50:
+			print("Grade E")
+		if 50>self.Marks:
+			print("Grade F")
+s1=Student("Parvinder Singh","17BCS1749",33)
+s1.Display()
+s1.Grade()
+s2=Student("Divyansh Sharma","17BCS1755",65)
+s2.Display()
+s2.Grade()
+s3=Student("Anmol Srivastava","17BCS1750",95)
+s3.Display()
+s3.Grade()
